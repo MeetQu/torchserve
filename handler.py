@@ -25,6 +25,5 @@ class Classifier(BaseHandler):
         return super().inference(input_tensor)
 
     def postprocess(self, data):
-        data = F.softmax(data, dim=1)
         data = data.tolist()
         return map_class_to_label(data, self.mapping)
