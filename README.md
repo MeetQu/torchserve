@@ -1,5 +1,7 @@
 # TorchServe Practice
 
+For detailed README file, please see anthoer repository [TorchServe Deployment](https://github.com/sudrizzz/vbr#6-torchserve-%E9%83%A8%E7%BD%B2) (simplified Chinese only).
+
 ## Getting Started
 
 https://pytorch.org/serve/getting_started.html
@@ -8,7 +10,7 @@ https://pytorch.org/serve/getting_started.html
 
 ### Script Model File
 
-1. Put script model under root folder of project, project structure will be like:
+1. Put script model under root folder of project, then the project structure will be like:
 
 ```text
 .  
